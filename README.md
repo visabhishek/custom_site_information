@@ -19,3 +19,12 @@
 # Example URL
 
 http://localhost/page_json/FOOBAR12345/17?_format=json
+
+Time Consumed :
+* "Site Information" Form related task : 3 hours
+* "JSON representation" related task : 3 hours
+
+# Reference Link :
+* https://www.drupal.org/docs/8/api/routing-system/altering-existing-routes-and-adding-new-routes-based-on-dynamic-ones
+* https://www.mediacurrent.com/blog/building-rest-endpoints-drupal-8/
+* https://www.axelerant.com/resources/team-blog/how-to-create-custom-restful-resources-in-drupal-8
