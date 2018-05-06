@@ -14,7 +14,7 @@ use Drupal\node\Entity\Node;
  *   id = "default_rest_resource",
  *   label = @Translation("Default rest resource"),
  *   uri_paths = {
- *     "canonical" = "/custom-api/node/{sitekey}/{id}"
+ *     "canonical" = "/page_json/{sitekey}/{id}"
  *   }
  * )
  */
