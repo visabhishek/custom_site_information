@@ -18,4 +18,4 @@
 
 # Example URL
 
-http://localhost/page_json/FOOBAR12345/17
+http://localhost/page_json/FOOBAR12345/17?_format=json
