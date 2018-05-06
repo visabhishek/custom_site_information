@@ -1,0 +1,14 @@
+{
+  "name": "drupal/custom_site_information",
+  "type": "drupal-module",
+  "description": "The module will alter the existing Drupal 'Site Information' form.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/custom_site_information",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/custom_site_information",
+    "source": "http://cgit.drupalcode.org/custom_site_information"
+  },
+  "require": { }
+}

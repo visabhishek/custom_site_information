@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_site_information.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_site_information_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the custom_site_information module.
+    case 'help.page.custom_site_information':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The module will alter the existing Drupal &quot;Site Information&quot; form.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
