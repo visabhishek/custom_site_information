@@ -3,10 +3,10 @@
 1: We have to enable this module.
 2: Enable "Default rest resource 	/page_json/{sitekey}/{id}" under admin/config/services/rest with following value:
 
- URL : admin/config/services/rest/resource/default_rest_resource/edit
- Methods : GET
- Accepted request formats : JSON
- Authentication providers : cookie
+ * URL : admin/config/services/rest/resource/default_rest_resource/edit
+ * Methods : GET
+ * Accepted request formats : JSON
+ * Authentication providers : cookie
 
 # Done Tasks
 *This module will add a new form text field named "Site API Key" in the "Site Information" (/admin/config/system/site-information) form with the default value of “No API Key yet”.
