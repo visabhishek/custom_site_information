@@ -1,8 +1,14 @@
 # Custom Site Information
 
-We have to enable this module and enable "Default rest resource 	/page_json/{sitekey}/{id}" under admin/config/services/rest.
+1: We have to enable this module.
+2: Enable "Default rest resource 	/page_json/{sitekey}/{id}" under admin/config/services/rest with following value:
 
+ URL : admin/config/services/rest/resource/default_rest_resource/edit
+ Methods : GET
+ Accepted request formats : JSON
+ Authentication providers : cookie
 
+# Done Tasks
 *This module will add a new form text field named "Site API Key" in the "Site Information" (/admin/config/system/site-information) form with the default value of “No API Key yet”.
 * When this form is submitted, the value that the user entered for this field should be saved as the system variable named "siteapikey".
 * A Drupal message will inform the user that the Site API Key has been saved with that value.
